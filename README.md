@@ -1,4 +1,4 @@
-# my-app
+# BreakingBadTest
 
 ## Project setup
 ```
