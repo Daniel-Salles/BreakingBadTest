@@ -1,0 +1,77 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .imagem {
+        width: 100px
+    }
+    .logo {
+        text-align: center
+    }
+    nav {
+        width: 80vw;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+    ul {
+        flex: 1;
+        text-align: center;
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+    ul div a {
+        display: block;
+        color: gray;
+        text-align: center;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+    li a {
+        text-align: center
+    }
+    li a,
+    input {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+    .flex {
+        display: flex;
+    }
+    .flex-item {
+        flex-grow: 1;
+        justify-content: center;
+    }
+    .custon-input {
+        background-color: black;
+        position: relative;
+        padding: 10px 10px 5px 10px;
+        color: gray;
+        width: 300px;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+    #lupa {
+        color: gray;
+        position: relative;
+        float: left;
+        display: block;
+        padding: 6px 12px;
+        margin: 1px 0px 0px -40px;
+        cursor: pointer
+    }
+    #close {
+        color: gray;
+        position: relative;
+        float: left;
+        display: block;
+        padding: 6px 12px;
+        margin: 1px 0px 0px -40px;
+        cursor: pointer
+    }
+    .active {
+        color: white;
+    }
+}

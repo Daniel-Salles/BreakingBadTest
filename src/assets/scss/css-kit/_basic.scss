@@ -1,0 +1,76 @@
+//variaveis
+$success: green;
+$warning: orange;
+$neutral: white;
+//css
+.container {
+    width: 80vw;
+    margin: auto;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.custom-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.generic-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+a {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.btn {
+    border-radius: 1px;
+    background-color: black;
+    width: 100px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
+
+.btn-warning {
+    color: $warning;
+    border: 1px solid $warning;
+}
+
+.btn-success {
+    color: $success;
+    border: 1px solid $success;
+}
+
+.btn-neutral {
+    color: $neutral;
+    border: 1px solid $neutral;
+}
+
+.btn-active {
+    color: black;
+}
+
+.btn-warning.btn-active {
+    background-color: $warning;
+}
+
+.btn-success.btn-active {
+    background-color: $success;
+}
+
+.btn-neutral.btn-active {
+    background-color: $neutral;
+}
+
+.btn-lg {
+    padding: 10px;
+    width: 200px;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+}

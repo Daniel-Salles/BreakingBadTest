@@ -1,0 +1,50 @@
+.episodes {
+    .container {
+        width: 70vw;
+    }
+}
+
+.cell-font {
+    font-size: 12px;
+    color: gray;
+}
+
+.table-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    border-bottom: 1px solid gray;
+    height: 70px;
+}
+
+.table-cell {
+    color: gray;
+}
+
+.column-title {
+    width: 50%;
+}
+
+.column-date {
+    width: 15%
+}
+
+.column-persons {
+    width: 35%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    height: 70px;
+}
+
+.column-persons>* {
+    flex: 0 1 0;
+}
+
+.item-person {
+    margin: 7px;
+    width: 33%;
+}

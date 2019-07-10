@@ -1,0 +1,31 @@
+.contact {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        margin: auto;
+    }
+    .form {
+        text-align: center;
+    }
+    .input {
+        margin: 10px;
+        width: 100%;
+        color: black;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+    }
+    .input-lg {
+        height: 200px;
+    }
+    input::placeholder {
+        color: black;
+        font-weight: 500;
+    }
+    textarea::placeholder {
+        color: black;
+        font-weight: 500;
+    }
+}
